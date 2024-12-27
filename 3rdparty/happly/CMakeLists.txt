@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13) 
+project(happly) 
+set(HEADER_FILES happly.h)
+add_library(happly INTERFACE)
+target_include_directories(happly INTERFACE ${PROJECT_SOURCE_DIR})
